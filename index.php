@@ -6,7 +6,7 @@ if (session_id() == '' || !isset($_SESSION['login'])) { //if sid exists and logi
   
 ?>
 
-<a href="/session_cookie/login.php">Login</a>
+<a href="/session_login_example/login.php">Login</a>
 
 <?php
 
@@ -16,7 +16,7 @@ if (session_id() == '' || !isset($_SESSION['login'])) { //if sid exists and logi
 
 ?>
 
-<a href="/session_cookie/logout.php">Logout</a>
+<a href="/session_login_example/logout.php">Logout</a>
 
 <?php 
 
